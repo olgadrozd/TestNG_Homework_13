@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test suite" parallel="classes">
+<test name="Check Div Calculator">
+    <classes>
+        <class name="testng.DivTests"/>
+    </classes>
+</test>
+<test name="Check Mult Calculator">
+    <classes>
+        <class name="testng.MultTests"/>
+    </classes>
+</test>
+<test name="Check Sub Calculator">
+    <classes>
+        <class name="testng.SubTests"/>
+    </classes>
+</test>
+<test name="Check Sum Calculator">
+    <classes>
+        <class name="testng.SumTests"/>
+    </classes>
+</test>
+</suite>
